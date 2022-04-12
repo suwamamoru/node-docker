@@ -75,7 +75,7 @@ services:
       bash -c 'npm install &&
       npm start'
 ```
-## 5. DB接続
+## 5. DB 接続
 (1) Sequelizeのインストール
 ```
 $　npm install --save sequelize
@@ -83,4 +83,8 @@ $　npm install --save sequelize
 (2) mysql2のインストール
 ```
 $ npm install --save mysql2
+```
+## 6. dockerコンテナ 起動
+```
+$ docker-compose up -d
 ```
